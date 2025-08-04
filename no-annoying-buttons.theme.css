@@ -1,0 +1,66 @@
+/**
+  * @name no-annoying-buttons
+  * @author i & co.
+  * @source https://github.com/iugbt/no-annoying-buttons
+  * @description configurable css theme to remove annoying buttons in discord 
+  * @version 1.0
+*/
+
+
+
+/* to enable a specific
+button, comment out or remove
+a given section of code, all
+buttons removed are labeled
+accordingly */
+
+/* >> sidebar buttons */
+
+/* discover servers*/
+div.circleIconButton__5bc7e.discoveryIcon_ef3116{
+    display: none;
+}
+
+/* >> chatbox buttons */
+
+/* app launcher */
+div.channelAppLauncher_e6e74f {
+    display: none;
+}
+
+/* emoji picker */
+div.emojiButtonNormal__04eed {
+    display: none;
+}
+
+/* send a gift; english only, see buttom for notes */
+div[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* gif picker; english only, see buttom for notes */
+div[aria-label="Open GIF picker"] {
+    display: none;
+}
+
+/* sticker picker; english only, see buttom for notes */
+div[aria-label="Open sticker picker"] {
+    display: none;
+}
+
+/* >> all languages patch, but removes every button :( */
+
+/* << remove to enable
+
+.button__24af7.button__74017 {
+  display: none;
+}
+
+*/
+
+/* sorry for inconsistent code,
+this code was derived from a
+thread, and i put very little
+effort into coding this beyond
+pre-written blocks found in
+said thread :( */
