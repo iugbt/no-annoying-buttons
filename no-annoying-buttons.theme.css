@@ -28,8 +28,8 @@ div.channelAppLauncher_e6e74f {
     display: none;
 }
 
-/* emoji picker */
-div.emojiButtonNormal__04eed {
+/* emoji picker; english only, see buttom for notes  */
+div[aria-label="Select emoji"] {
     display: none;
 }
 
