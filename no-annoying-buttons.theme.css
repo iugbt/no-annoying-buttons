@@ -3,7 +3,7 @@
   * @author i & co.
   * @source https://github.com/iugbt/no-annoying-buttons
   * @description configurable css theme to remove annoying buttons in discord 
-  * @version 1.1
+  * @version 1.0
 */
 
 
@@ -24,8 +24,8 @@ button[aria-label="Bookmarks"], div[aria-label="Bookmarks"] {
 /* >> sidebar buttons */
 
 /* discover servers*/
-.footer_d71945{
-display:none;
+div.circleIconButton__5bc7e.discoveryIcon_ef3116{
+    display: none;
 }
 
 /* >> chatbox buttons */
