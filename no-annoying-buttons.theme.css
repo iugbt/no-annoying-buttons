@@ -3,7 +3,7 @@
   * @author i & co.
   * @source https://github.com/iugbt/no-annoying-buttons
   * @description configurable css theme to remove annoying buttons in discord 
-  * @version 1.0
+  * @version 1.1
 */
 
 
@@ -14,47 +14,55 @@ a given section of code, all
 buttons removed are labeled
 accordingly */
 
+/* >> top buttons */
+
+/* bookmarks button; english only :( */
+button[aria-label="Bookmarks"], div[aria-label="Bookmarks"] {
+    display: none;
+}
+
 /* >> sidebar buttons */
 
 /* discover servers*/
-div.circleIconButton__5bc7e.discoveryIcon_ef3116{
-    display: none;
+.footer_d71945{
+display:none;
 }
 
 /* >> chatbox buttons */
 
 /* app launcher */
-div.channelAppLauncher_e6e74f {
+button[aria-label="Apps"], div.channelAppLauncher_e6e74f {
     display: none;
 }
 
-/* emoji picker; english only, see buttom for notes  */
-div[aria-label="Select emoji"] {
+/* emoji picker */
+button[aria-label="Select emoji"], div.emojiButtonNormal__04eed {
     display: none;
 }
 
 /* send a gift; english only, see buttom for notes */
-div[aria-label="Send a gift"] {
+button[aria-label="Send a gift"], div[aria-label="Send a gift"] {
     display: none;
 }
 
 /* gif picker; english only, see buttom for notes */
-div[aria-label="Open GIF picker"] {
+button[aria-label="Open GIF picker"], div[aria-label="Open GIF picker"] {
     display: none;
 }
 
 /* sticker picker; english only, see buttom for notes */
-div[aria-label="Open sticker picker"] {
+button[aria-label="Open sticker picker"], div[aria-label="Open sticker picker"] {
     display: none;
 }
 
-/* >> all languages patch, but removes every button :( */
 
-/* << remove to enable
+/* >> all languages patch, but removes every button :( */
 
 .button__24af7.button__74017 {
   display: none;
 }
+
+/* << remove to enable
 
 */
 
