@@ -3,10 +3,10 @@
   * @author murderpigs
   * @source https://github.com/murderpigs/no-annoying-buttons
   * @description configurable css theme to remove annoying buttons in discord 
-  * @version 1.1
+  * @version 1.2
 */
 
-
+/* thank you to u/Rederpz for the removal of nitro button code*/
 
 /* to enable a specific
 button, comment out or remove
@@ -25,7 +25,7 @@ button[aria-label="Bookmarks"], div[aria-label="Bookmarks"] {
 
 /* >> midbar buttons */
 
-/* create dm */
+/* > create dm */
 
 /*english only*/
 
@@ -39,7 +39,25 @@ button[aria-label="Create DM"], div[aria-label="Create DM"]{
     display: none;
 }
 
-*/
+*/ 
+
+/* formatting fix to remove nitro and shop buttons */
+
+ul > li[role="listitem"]{
+    margin-bottom: -7px;
+}
+
+/* shop button */
+
+ul > li[role="listitem"] a[href="/shop"]{
+    display: none;
+}
+
+/* join nitro button */
+
+ul > li[role="listitem"] a[href="/store"] {
+	display: none;
+}
 
 /* discover servers*/
 div.circleIconButton__5bc7e.discoveryIcon_ef3116{
@@ -83,5 +101,3 @@ button[aria-label="Open sticker picker"], div[aria-label="Open sticker picker"] 
 }
 
 remove to enable >> */
-
-/* apologies for inconsistent code </3 */
