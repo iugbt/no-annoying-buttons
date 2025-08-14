@@ -23,6 +23,24 @@ button[aria-label="Bookmarks"], div[aria-label="Bookmarks"] {
 
 /* >> sidebar buttons */
 
+/* >> midbar buttons */
+
+/* create dm */
+
+/*english only*/
+
+button[aria-label="Create DM"], div[aria-label="Create DM"]{
+    display: none;
+}
+
+/* <-- remove for all languages
+
+.button__6af3a{
+    display: none;
+}
+
+*/
+
 /* discover servers*/
 div.circleIconButton__5bc7e.discoveryIcon_ef3116{
     display: none;
