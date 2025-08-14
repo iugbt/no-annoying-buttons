@@ -41,24 +41,6 @@ button[aria-label="Create DM"], div[aria-label="Create DM"]{
 
 */ 
 
-/* formatting fix to remove nitro and shop buttons */
-
-ul > li[role="listitem"]{
-    margin-bottom: -7px;
-}
-
-/* shop button */
-
-ul > li[role="listitem"] a[href="/shop"]{
-    display: none;
-}
-
-/* join nitro button */
-
-ul > li[role="listitem"] a[href="/store"] {
-	display: none;
-}
-
 /* discover servers*/
 div.circleIconButton__5bc7e.discoveryIcon_ef3116{
     display: none;
